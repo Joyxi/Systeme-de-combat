@@ -4,13 +4,13 @@ int main () {
 	
 	int pdv;
 	pdv = 150;
-	printf ("Niveau de vie: %d\n",pdv);
+	printf ("Niveau de vie de l'ennemi: %d\n",pdv);
 	
 	while (pdv>0){
 	
-	printf("Vous avez ete touche ! -10p\n");
+	printf("Vous avez touche le monstre! -10p\n");
 	pdv = pdv-10;
-	printf("Niveau de vie: %d\n",pdv);
+	printf("Niveau de vie l'ennemi: %d\n",pdv);
 	
 	}
 	
